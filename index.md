@@ -47,11 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+Before I started building the Air Quality Monitor, I primarily needed to learn programming for Arduino IDE. When I was buikding the circuit, I had difficulty placing the connection with the Arduino board and the OLED display. Since I have never used an OLED before, I searched for other strategies by experimenting with the circuit. After I installed the MQ135 senor, I realized that I require a 5v port for both items. However, I only had one port on the Arduino board. I learned that the edges of the Arduino board that had a + and - symbol can be used to transfer power all the ports on the edges. I used the breadboard port edges to power the OLED display and the MQ135 sensor to be powered by 5v. 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -78,10 +74,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Etekcity Digital Multimeter | What the item is used for | $9.98 | |
-| Ximimark Air Quality Sensor (3pcs) | What the item is used for | $8.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| HiLetgo Serial Display 4 Pin | What the item is used for | $6.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-
+| Breadboard |:--:| $ |:--:|
+| MQ135 | What the item is used for | $8.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| OLED | What the item is used for | $ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Elgoo Uno R3 Board |  | $15.99 |  |
+| Wires |  | $ |  |
+|  |  |  |  |
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
