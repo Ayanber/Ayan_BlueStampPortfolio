@@ -47,6 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
 Before I started building the Air Quality Monitor, I primarily needed to learn programming for Arduino IDE. When I was buikding the circuit, I had difficulty placing the connection with the Arduino board and the OLED display. Since I have never used an OLED before, I searched for other strategies by experimenting with the circuit. After I installed the MQ135 senor, I realized that I require a 5v port for both items. However, I only had one port on the Arduino board. I learned that the edges of the Arduino board that had a + and - symbol can be used to transfer power all the ports on the edges. I used the breadboard port edges to power the OLED display and the MQ135 sensor to be powered by 5v. 
 
 # Schematics 
