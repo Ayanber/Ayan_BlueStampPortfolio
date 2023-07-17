@@ -34,6 +34,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Hello, my name is Ayan. I have updated my project. In this video, I will be explaining my second milestone. For my project, the Air Quality Monitor, I previously used an OLED to display the readings of temperature, humidity, and air quality. However, since the OLED size was limited, it wasn’t able to  I switched the OLED with an LCD. The LCD was able to display the data from the sensors in better quality. The LCD is connected by multiple wires of digital pins. The LCD is further connected by a potentiometer. Three wires are connected to the potentiometer to power it. When the potentiometer turns, the brightness of the LCD monitor changes. The MQ135 and DHT11 sensors are now connected to the LCD. The LCD display three sets of data. Temperature, humidity, and concentration. The code used ppm which changes the data on the display the results detected by the MQ135 and DHT11. Thank you for listening to my Milestone 2 video. 
+
+
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
