@@ -53,6 +53,11 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+[Milestone 1.pdf](https://github.com/Ayanber/Ayan_BlueStampPortfolio/files/12072209/Milestone.1.pdf)
+
+
+
+
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
@@ -76,13 +81,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Breadboard |:--:| $ |:--:|
-| MQ135 | What the item is used for | $8.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| OLED | What the item is used for | $ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Elgoo Uno R3 Board |  | $15.99 |  |
-| Wires |  | $ |  |
-|  |  |  |  |
-
+| Breadboard | Power multiple sensor through wires. | $9.59 | https://www.amazon.com/DGZZI-Electronics-Solderless-tie-Points-Breadboard/dp/B07QKJXZNV/ref=sr_1_3?crid=144630B6ND92M&keywords=arduino+breadboard+1pcs&qid=1689615528&sprefix=arduino+breadboard+1pcs%2Caps%2C146&sr=8-3 |
+| MQ135 | Measures the levels of gasses in the air. | $8.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| OLED | Displays results of data from MQ135 and DHT11 | $ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Elgoo Uno R3 Board |  | $15.99 | https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_3?crid=2CKV6W384Y9N7&keywords=arduino+elegoo+uno+r3+board&qid=1689615189&sprefix=arduino+elgoo+uno+r3+boar%2Caps%2C150&sr=8-3 |
+| Wires | Transfers power from an arduino board to multiple sensors | $7.99 | https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-Package/dp/B016KI622U/ref=sr_1_2_sspa?keywords=arduino+jumper+wires&qid=1689615065&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 |
+| DHT11 | Measures the levels of temperature and humidity | $9.00 | https://www.amazon.com/Digital-Temperature-Relative-Humidity-Arduino/dp/B07868Z9LX/ref=sr_1_9?crid=29WH8QIDR2DMH&keywords=arduino+dht11&qid=1689615118&sprefix=arduino+dht11%2Caps%2C167&sr=8-9 |
+| LCD   | Displays results of data from MQ135 and DHT11 | $9.99 | https://www.amazon.com/SunFounder-Serial-Module-Display-Arduino/dp/B019K5X53O/ref=sr_1_1_sspa?crid=3ODOT5YO1MWEL&keywords=arduino+lcd+display&qid=1689615363&sprefix=arduino+LCD%2Caps%2C159&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 |
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
