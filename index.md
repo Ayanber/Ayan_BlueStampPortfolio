@@ -1,4 +1,4 @@
-# Air Monitor Control
+# Air Quality Monitor
 Many lives had been lost since several people are not aware that they have recieved low quality air. An sir quality monitor has an expensive cost on the market. To avoid paying a high price, people can make a cheap, portable, air quality monitor.  
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
