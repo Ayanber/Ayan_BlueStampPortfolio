@@ -83,7 +83,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Breadboard | Power multiple sensor through wires. | $9.59 |Amazon |
 | MQ135 | Measures the levels of gasses in the air. | $8.99 | Amazon|
-| OLED | Displays results of data from MQ135 and DHT11 | $ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| OLED | Displays results of data from MQ135 and DHT11 | $ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> amazon </a> |
 | Elgoo Uno R3 Board |  | $15.99 | https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_3?crid=2CKV6W384Y9N7&keywords=arduino+elegoo+uno+r3+board&qid=1689615189&sprefix=arduino+elgoo+uno+r3+boar%2Caps%2C150&sr=8-3 |
 | Wires | Transfers power from an arduino board to multiple sensors | $7.99 | https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-Package/dp/B016KI622U/ref=sr_1_2_sspa?keywords=arduino+jumper+wires&qid=1689615065&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1 |
 | DHT11 | Measures the levels of temperature and humidity | $9.00 | https://www.amazon.com/Digital-Temperature-Relative-Humidity-Arduino/dp/B07868Z9LX/ref=sr_1_9?crid=29WH8QIDR2DMH&keywords=arduino+dht11&qid=1689615118&sprefix=arduino+dht11%2Caps%2C167&sr=8-9 |
