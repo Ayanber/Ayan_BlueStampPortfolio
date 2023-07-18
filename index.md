@@ -82,7 +82,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Breadboard | Power multiple sensor through wires. | $9.59 |  <a href="https://www.amazon.com/Qunqi-point-Experiment-Breadboard-5-5%C3%978-2%C3%970-85cm/dp/B0135IQ0ZC/ref=asc_df_B0135IQ0ZC/?tag=hyprod-20&linkCode=df0&hvadid=198091709182&hvpos=&hvnetw=g&hvrand=2250968856437206968&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032046&hvtargid=pla-407203040794&psc=1/"> amazon </a>     |
-| MQ135 | Measures the levels of gasses in the air. | $8.99 | <a href="Amazon/"> amazon </a>|
+| MQ135 | Measures the levels of gasses in the air. | $8.99 | <a href="https://www.amazon.com/Ximimark-Quality-Hazardous-Detection-Arduino/dp/B07L73VTTY/ref=sr_1_2?crid=1JQW6P88CP13S&keywords=MQ135&qid=1689645958&sprefix=mq135%2Caps%2C163&sr=8-2/"> amazon </a>|
 | OLED | Displays results of data from MQ135 and DHT11 | $6.99 | <a href="https://www.amazon.com/UCTRONICS-SSD1306-Self-Luminous-Display-Raspberry/dp/B072Q2X2LL/ref=sr_1_5?crid=217K0GHNV4Y15&keywords=arduino+OLED&qid=1689645804&sprefix=arduino+ole%2Caps%2C167&sr=8-5"> amazon </a> |
 | Elgoo Uno R3 Board |  | $15.99 | <a href="https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/"> amazon </a> |
 | Wires | Transfers power from an arduino board to multiple sensors | $7.99 | <a href="https://www.amazon.com/Solderless-Flexible-Breadboard-Jumper-Package/dp/B016KI622U/ref=sr_1_2_sspa?keywords=arduino+jumper+wires&qid=1689615065&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1/"> amazon </a> |
