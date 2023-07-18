@@ -81,7 +81,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Breadboard | Power multiple sensor through wires. | $9.59 |Amazon |
+| Breadboard | Power multiple sensor through wires. | $9.59 |  <a href="https://www.amazon.com/Qunqi-point-Experiment-Breadboard-5-5%C3%978-2%C3%970-85cm/dp/B0135IQ0ZC/ref=asc_df_B0135IQ0ZC/?tag=hyprod-20&linkCode=df0&hvadid=198091709182&hvpos=&hvnetw=g&hvrand=2250968856437206968&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032046&hvtargid=pla-407203040794&psc=1/"> amazon </a>     |
 | MQ135 | Measures the levels of gasses in the air. | $8.99 | Amazon|
 | OLED | Displays results of data from MQ135 and DHT11 | $ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> amazon </a> |
 | Elgoo Uno R3 Board |  | $15.99 | <a href="https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_3?crid=2CKV6W384Y9N7&keywords=arduino+elegoo+uno+r3+board&qid=1689615189&sprefix=arduino+elgoo+uno+r3+boar%2Caps%2C150&sr=8-3/"> Link </a>crid=2CKV6W384Y9N7&keywords=arduino+elegoo+uno+r3+board&qid=1689615189&sprefix=arduino+elgoo+uno+r3+boar%2Caps%2C150&sr=8-3 |
