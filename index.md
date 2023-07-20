@@ -62,19 +62,123 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
+**Final Milestone:**
+
+**Second Milestone:**
+#include "MQ135.h"
+#include <dht11.h>
+#include <LiquidCrystal.h>
+
+// initialize the library with the numbers of the interface pins
+LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
+
+const int ANALOGPIN = 0;
+MQ135 gasSensor = MQ135(ANALOGPIN);
+dht11 DHT11;
+#define DHT11PIN 2
 void setup() {
-  // put your setup code here, to run once:
+  Serial.begin(9600);  // put your setup code here, to run once:
+// set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+// Print a message to the LCD.
+//  lcd.print("Hello, World!");
+}
+
+void loop() {  // put your main code here, to run repeatedly:
+  float chk = DHT11.read(DHT11PIN);
+  float gas = gasSensor.getPPM();
+  lcd.setCursor(0, 0);
+  lcd.print("T= ");
+  lcd.print((int)DHT11.temperature);
+  lcd.println("C  ");
+  lcd.setCursor(8, 0);
+  lcd.print("H= ");
+  lcd.print((int)DHT11.humidity);
+  lcd.println("%  ");
+  lcd.setCursor(0, 1);
+  lcd.print("Conc.= ");
+  lcd.print(gas);
+  lcd.println("ppm");
+
+  Serial.print("Temperature [C] = ");
+  Serial.println((int)DHT11.temperature);
+  Serial.print("Humidity [%] = ");
+  Serial.println((int)DHT11.humidity);
+  Serial.print("Concentation [ppm] = ");
+  Serial.println(gas);
+  delay(10000);
+}
+
+**First Milestone:**
+#include <Wire.h>
+ 
+ 
+void setup()
+{
+  Wire.begin();
+ 
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  while (!Serial);             // Leonardo: wait for serial monitor
+  Serial.println("\nI2C Scanner");
 }
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
+ 
+ 
+void loop()
+{
+  byte error, address;
+  int nDevices;
+ 
+  Serial.println("Scanning...");
+ 
+  nDevices = 0;
+  for(address = 1; address < 127; address++ )
+  {
+    // The i2c_scanner uses the return value of
+    // the Write.endTransmisstion to see if
+    // a device did acknowledge to the address.
+    Wire.beginTransmission(address);
+    error = Wire.endTransmission();
+ 
+    if (error == 0)
+    {
+      Serial.print("I2C device found at address 0x");
+      if (address<16)
+        Serial.print("0");
+      Serial.print(address,HEX);
+      Serial.println("  !");
+ 
+      nDevices++;
+    }
+    else if (error==4)
+    {
+      Serial.print("Unknown error at address 0x");
+      if (address<16)
+        Serial.print("0");
+      Serial.println(address,HEX);
+    }    
+  }
+  if (nDevices == 0)
+    Serial.println("No I2C devices found\n");
+  else
+    Serial.println("done\n");
+ 
+  delay(5000);           // wait 5 seconds for next scan
 }
-```
-
+const int gasSensor =0;
+void setup(){
+  Serial.begin(9600);      // sets the serial port to 9600
+}
+void loop(){
+  float voltage;
+  voltage = getVoltage(gasSensor);
+  Serial.println(gasSensor.getPPM());
+  Serial.println(voltage);
+  delay(1000);
+}
+ 
+float getVoltage(int pin){
+  return (analogRead(pin) * 0.004882814);
+}
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.mark downguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
